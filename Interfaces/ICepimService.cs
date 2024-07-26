@@ -1,4 +1,3 @@
-using IntegraBrasilApi.Dto;
 using IntegraBrasilApi.Dtos;
 
 namespace IntegraBrasilApi.Interfaces;

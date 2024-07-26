@@ -13,8 +13,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<ICepimService, CepimService>();
+builder.Services.AddSingleton<IPepsService, PepsService>();
+
 builder.Services.AddSingleton<IBrasilApi, BrasilApiRest>();
 builder.Services.AddAutoMapper(typeof(CepimMapping));
+builder.Services.AddAutoMapper(typeof(PepsMapping));
+
 
 
 var app = builder.Build();

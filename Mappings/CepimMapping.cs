@@ -1,5 +1,4 @@
 using AutoMapper;
-using IntegraBrasilApi.Dto;
 using IntegraBrasilApi.Dtos;
 using IntegraBrasilApi.Model;
 

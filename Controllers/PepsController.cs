@@ -1,25 +1,27 @@
-using System.Net;
+﻿using System.Net;
 using IntegraBrasilApi.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IntegraBrasilApi.Controllers;
-    [ApiController]
-    [Route("api/v1/[controller]")]
-public class CepimController : ControllerBase
+[ApiController]
+[Route("api/v1/[controller]")]
+
+
+public class PepsController : ControllerBase
 {
-    public readonly ICepimService _CepimService;
+    public readonly IPepsService _PepsService;
     
-    public CepimController(ICepimService cepimService)
+    public PepsController(IPepsService pepsService)
     {
-        _CepimService = cepimService;
+        _PepsService = pepsService;
     }
-    [HttpGet("busca/{cnpj}")]
+    [HttpGet("busca/{cpf}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    public async Task<IActionResult> BuscarCepim([FromRoute] string cnpj)
+    public async Task<IActionResult> BuscarPeps([FromRoute] string cpf)
     {
-        var response = await _CepimService.BuscarCepim(cnpj);
+        var response = await _PepsService.BuscarPeps(cpf);
             
         if(response.CodigoHttp == HttpStatusCode.OK)
         {

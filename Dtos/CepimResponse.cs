@@ -1,4 +1,4 @@
-namespace IntegraBrasilApi.Dto
+namespace IntegraBrasilApi.Dtos
 {
     public class CepimResponse
     {
