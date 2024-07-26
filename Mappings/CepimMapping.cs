@@ -1,8 +1,8 @@
 using AutoMapper;
-using IntegraBrasilApi.Dtos;
-using IntegraBrasilApi.Model;
+using mvpAPI.Dtos;
+using mvpAPI.Model;
 
-namespace IntegraBrasilApi.Mappings;
+namespace mvpAPI.Mappings;
 
 public class CepimMapping : Profile
 {

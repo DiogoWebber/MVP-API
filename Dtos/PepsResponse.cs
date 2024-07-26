@@ -1,4 +1,4 @@
-﻿namespace IntegraBrasilApi.Dtos;
+﻿namespace mvpAPI.Dtos;
 
 public class PepsResponse
 {

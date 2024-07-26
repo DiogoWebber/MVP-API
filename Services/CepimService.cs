@@ -1,9 +1,9 @@
 using AutoMapper;
-using IntegraBrasilApi.Dtos;
-using IntegraBrasilApi.Dtos;
-using IntegraBrasilApi.Interfaces;
+using mvpAPI.Dtos;
+using mvpAPI.Dtos;
+using mvpAPI.Interfaces;
 
-namespace IntegraBrasilApi.Services;
+namespace mvpAPI.Services;
 
 public class CepimService : ICepimService
 {

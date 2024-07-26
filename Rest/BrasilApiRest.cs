@@ -1,10 +1,10 @@
 using System.Dynamic;
 using System.Text.Json;
-using IntegraBrasilApi.Dtos;
-using IntegraBrasilApi.Interfaces;
-using IntegraBrasilApi.Model;
+using mvpAPI.Dtos;
+using mvpAPI.Interfaces;
+using mvpAPI.Model;
 
-namespace IntegraBrasilApi.Rest
+namespace mvpAPI.Rest
 {
     public class BrasilApiRest : IBrasilApi
     {

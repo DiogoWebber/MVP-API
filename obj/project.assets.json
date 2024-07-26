@@ -744,9 +744,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julia\\RiderProjects\\MVP-API\\IntegraBrasilApi.csproj",
-      "projectName": "IntegraBrasilApi",
-      "projectPath": "C:\\Users\\julia\\RiderProjects\\MVP-API\\IntegraBrasilApi.csproj",
+      "projectUniqueName": "C:\\Users\\julia\\RiderProjects\\MVP-API\\mvpAPI.csproj",
+      "projectName": "mvpAPI",
+      "projectPath": "C:\\Users\\julia\\RiderProjects\\MVP-API\\mvpAPI.csproj",
       "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\julia\\RiderProjects\\MVP-API\\obj\\",
       "projectStyle": "PackageReference",

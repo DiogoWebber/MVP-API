@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FlQ3vt1qh96/64tc1biO3y+ZM+oQWLw2myoXhzb2QOPHDJle1RTG8T0UpF8cyaqiwRRWmQ16eycegj31Wfa/WQ==",
+  "dgSpecHash": "TNwHrRCI7F9hLsRBvuKnwM4Hwo63zezrVlEBGiK50LcErYSq6vI9CufJeL5h1BVXKiHbyzaceT++XEen4LP6sw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julia\\RiderProjects\\MVP-API\\IntegraBrasilApi.csproj",
+  "projectFilePath": "C:\\Users\\julia\\RiderProjects\\MVP-API\\mvpAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julia\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

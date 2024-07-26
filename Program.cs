@@ -1,7 +1,7 @@
-using IntegraBrasilApi.Interfaces;
-using IntegraBrasilApi.Mappings;
-using IntegraBrasilApi.Rest;
-using IntegraBrasilApi.Services;
+using mvpAPI.Interfaces;
+using mvpAPI.Mappings;
+using mvpAPI.Rest;
+using mvpAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

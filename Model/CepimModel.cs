@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace IntegraBrasilApi.Model
+namespace mvpAPI.Model
 {
     public class CepimModel
     {

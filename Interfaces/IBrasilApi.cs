@@ -1,7 +1,7 @@
-using IntegraBrasilApi.Dtos;
-using IntegraBrasilApi.Model;
+using mvpAPI.Dtos;
+using mvpAPI.Model;
 
-namespace IntegraBrasilApi.Interfaces{
+namespace mvpAPI.Interfaces{
 
 public interface IBrasilApi
 {

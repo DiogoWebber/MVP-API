@@ -1,8 +1,8 @@
 using System.Net;
-using IntegraBrasilApi.Interfaces;
+using mvpAPI.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IntegraBrasilApi.Controllers;
+namespace mvpAPI.Controllers;
     [ApiController]
     [Route("api/v1/[controller]")]
 public class CepimController : ControllerBase

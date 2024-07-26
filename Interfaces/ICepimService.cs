@@ -1,6 +1,6 @@
-using IntegraBrasilApi.Dtos;
+using mvpAPI.Dtos;
 
-namespace IntegraBrasilApi.Interfaces;
+namespace mvpAPI.Interfaces;
 
 public interface ICepimService
 {
