@@ -7,9 +7,9 @@ namespace mvpAPI.Services;
 public class PepsService :IPepsService
 {
     private readonly IMapper _mapper;
-    private readonly IBrasilApi _brasilApi;
+    private readonly IMvpApi _brasilApi;
     
-    public PepsService(IMapper mapper, IBrasilApi brasilApi)
+    public PepsService(IMapper mapper, IMvpApi brasilApi)
     {
         _mapper = mapper;
         _brasilApi = brasilApi;

@@ -15,7 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<ICepimService, CepimService>();
 builder.Services.AddSingleton<IPepsService, PepsService>();
 
-builder.Services.AddSingleton<IBrasilApi, BrasilApiRest>();
+builder.Services.AddSingleton<IMvpApi, MvpApiRest>();
 builder.Services.AddAutoMapper(typeof(CepimMapping));
 builder.Services.AddAutoMapper(typeof(PepsMapping));
 
@@ -37,3 +37,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

@@ -1,6 +1,5 @@
 using AutoMapper;
 using mvpAPI.Dtos;
-using mvpAPI.Dtos;
 using mvpAPI.Interfaces;
 
 namespace mvpAPI.Services;
@@ -8,9 +7,9 @@ namespace mvpAPI.Services;
 public class CepimService : ICepimService
 {
     private readonly IMapper _mapper;
-    private readonly IBrasilApi _brasilApi;
+    private readonly IMvpApi _brasilApi;
     
-    public CepimService(IMapper mapper, IBrasilApi brasilApi)
+    public CepimService(IMapper mapper, IMvpApi brasilApi)
     {
         _mapper = mapper;
         _brasilApi = brasilApi;

@@ -6,7 +6,7 @@ using mvpAPI.Model;
 
 namespace mvpAPI.Rest
 {
-    public class BrasilApiRest : IBrasilApi
+    public class MvpApiRest : IMvpApi
     {
         public async Task<ResponseGenerico<List<CepimModel>>> BuscarCepimPorCnpj(string cnpj)
         {
