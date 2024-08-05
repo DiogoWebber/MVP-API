@@ -19,7 +19,17 @@ builder.Services.AddSingleton<IMvpApi, MvpApiRest>();
 builder.Services.AddAutoMapper(typeof(CepimMapping));
 builder.Services.AddAutoMapper(typeof(PepsMapping));
 
-
+builder.Services.AddControllers();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+        });
+});
 
 var app = builder.Build();
 
@@ -33,6 +43,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+app.UseCors("AllowAllOrigins");
 
 app.MapControllers();
 

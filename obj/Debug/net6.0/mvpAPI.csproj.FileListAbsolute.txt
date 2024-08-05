@@ -1,30 +1,66 @@
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\appsettings.json
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\global.json
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\mvpAPI.exe
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\mvpAPI.deps.json
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\mvpAPI.runtimeconfig.json
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\mvpAPI.dll
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\mvpAPI.pdb
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\julia\RiderProjects\MVP-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\mvpAPI.csproj.AssemblyReference.cache
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\mvpAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\mvpAPI.AssemblyInfoInputs.cache
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\mvpAPI.AssemblyInfo.cs
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\mvpAPI.csproj.CoreCompileInputs.cache
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\mvpAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\mvpAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\scopedcss\bundle\mvpAPI.styles.css
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\mvpAPI.csproj.CopyComplete
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\mvpAPI.dll
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\refint\mvpAPI.dll
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\mvpAPI.pdb
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\mvpAPI.genruntimeconfig.cache
-C:\Users\julia\RiderProjects\MVP-API\obj\Debug\net6.0\ref\mvpAPI.dll
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/appsettings.json
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/global.json
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/mvpAPI.exe
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/mvpAPI.deps.json
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/mvpAPI.runtimeconfig.json
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/mvpAPI.dll
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/mvpAPI.pdb
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/AutoMapper.dll
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/julia/RiderProjects/MVP-API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/mvpAPI.csproj.AssemblyReference.cache
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/mvpAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/mvpAPI.AssemblyInfoInputs.cache
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/mvpAPI.AssemblyInfo.cs
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/mvpAPI.csproj.CoreCompileInputs.cache
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/mvpAPI.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/mvpAPI.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/scopedcss/bundle/mvpAPI.styles.css
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/mvpAPI.csproj.CopyComplete
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/mvpAPI.dll
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/refint/mvpAPI.dll
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/mvpAPI.pdb
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/mvpAPI.genruntimeconfig.cache
+C:/Users/julia/RiderProjects/MVP-API/obj/Debug/net6.0/ref/mvpAPI.dll
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/appsettings.Development.json
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/appsettings.json
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/global.json
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/mvpAPI
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/mvpAPI.deps.json
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/mvpAPI.runtimeconfig.json
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/mvpAPI.dll
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/mvpAPI.pdb
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/AutoMapper.dll
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/diogo/Área de Trabalho/MVP-API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.csproj.AssemblyReference.cache
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.GeneratedMSBuildEditorConfig.editorconfig
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.AssemblyInfoInputs.cache
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.AssemblyInfo.cs
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.csproj.CoreCompileInputs.cache
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.MvcApplicationPartsAssemblyInfo.cs
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.MvcApplicationPartsAssemblyInfo.cache
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.sourcelink.json
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/staticwebassets.build.json
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/staticwebassets.development.json
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/staticwebassets/msbuild.mvpAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/staticwebassets/msbuild.build.mvpAPI.props
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.mvpAPI.props
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.mvpAPI.props
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/staticwebassets.pack.json
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/scopedcss/bundle/mvpAPI.styles.css
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.csproj.CopyComplete
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.dll
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/refint/mvpAPI.dll
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.pdb
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/mvpAPI.genruntimeconfig.cache
+/home/diogo/Área de Trabalho/MVP-API/obj/Debug/net6.0/ref/mvpAPI.dll
