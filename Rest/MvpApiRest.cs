@@ -10,7 +10,7 @@ namespace mvpAPI.Rest
     {
         public async Task<ResponseGenerico<List<CepimModel>>> BuscarCepimPorCnpj(string cnpj)
         {
-            var apiKey = "7c137febe8f79a03ffe7a437026f0e05"; // Substitua pela sua chave da API
+            var apiKey = "7c137febe8f79a03ffe7a437026f0e05"; 
             var requestUri =
                 $"https://api.portaldatransparencia.gov.br/api-de-dados/cepim?cnpjSancionado={cnpj}&pagina=1";
 
