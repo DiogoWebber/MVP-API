@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using System.Text.Json;
+using IntegraBrasilApi.Util;
 using Microsoft.AspNetCore.Mvc;
 using mvpAPI.Dtos;
 using mvpAPI.Interfaces;
@@ -10,7 +11,7 @@ public class PepsController : ControllerBase
 {
     private readonly IPepsService _PepsService;
     private readonly ApplicationDbContext _context;
-
+    
     public PepsController(IPepsService pepsService, ApplicationDbContext context)
     {
         _PepsService = pepsService;
@@ -23,11 +24,15 @@ public class PepsController : ControllerBase
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> BuscarPeps([FromQuery] DialogData pesquisa)
     {
+        if (!ValidadeCPF.IsValid(pesquisa.Documento))
+        {
+            return BadRequest("CPF inválido.");
+        }
+
         var response = await _PepsService.BuscarPeps(pesquisa.Documento);
 
         if (response.CodigoHttp == HttpStatusCode.OK)
         {
-
             var teste = JsonSerializer.Serialize(response.DadosRetorno);
             var itemHistorico = new HistoricoModel
             {
@@ -44,7 +49,6 @@ public class PepsController : ControllerBase
             
             Console.WriteLine(teste2);
 
-            // Salvar o histórico no banco de dados
             _context.Historicos.Add(itemHistorico);
             await _context.SaveChangesAsync();
             return Ok(response.DadosRetorno);

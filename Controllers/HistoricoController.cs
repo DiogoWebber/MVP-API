@@ -58,18 +58,44 @@ public class HistoricoController : ControllerBase
             .Where(h => h.Id == id)
             .Select(h => new 
             {
-                h.Dados
+                h.Dados,
+                h.Tipo // Adicione o tipo ao resultado
             })
             .FirstOrDefaultAsync();
-        
+    
         if (historico == null)
         {
             return NotFound();
         }
 
-        // Usar o logger para imprimir os dados
+        // Usar o logger para imprimir os dados e o tipo
         _logger.LogInformation($"Dados: {historico.Dados}");
-        var obj = JsonSerializer.Deserialize<List<PepsResponse>>(historico.Dados);
-        return Ok(obj);
+        _logger.LogInformation($"Tipo: {historico.Tipo}");
+
+        try
+        {
+            object obj;
+            if (historico.Tipo == "cpf")
+            {
+                obj = JsonSerializer.Deserialize<List<PepsResponse>>(historico.Dados);
+            }
+            else if (historico.Tipo == "cnpj")
+            {
+                obj = JsonSerializer.Deserialize<List<CepimResponse>>(historico.Dados);
+            }
+            else
+            {
+                return BadRequest("Tipo de dados desconhecido.");
+            }
+
+            return Ok(obj);
+        }
+        catch (JsonException ex)
+        {
+            // Logue qualquer erro de deserialização
+            _logger.LogError($"Erro ao deserializar dados: {ex.Message}");
+            return StatusCode(StatusCodes.Status500InternalServerError, "Erro ao processar os dados");
+        }
     }
+
 }
