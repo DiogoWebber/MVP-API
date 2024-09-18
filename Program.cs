@@ -5,7 +5,13 @@ using mvpAPI.Rest;
 using mvpAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(7121, listenOptions =>
+    {
+        listenOptions.UseHttps(); // Assumindo que você está usando HTTPS
+    });
+});
 // Add services to the container.
 // Configuração do Entity Framework Core para PostgreSQL
 builder.Services.AddDbContext<ApplicationDbContext>(options => 

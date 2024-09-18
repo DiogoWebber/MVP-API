@@ -7,6 +7,5 @@ public interface IMvpApi
 {
     Task<ResponseGenerico<List<CepimModel>>> BuscarCepimPorCnpj(string cnpj);
     Task<ResponseGenerico<List<PepsModel>>> BuscarPepsPorCpf(string cpf);
-
     
 }}
